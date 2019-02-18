@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "dist",
+        "module": "commonjs",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": false
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "assets",
+        "node_modules"
+    ]
+}
