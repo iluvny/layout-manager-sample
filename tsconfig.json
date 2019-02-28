@@ -8,7 +8,13 @@
         "removeComments": true,
         "jsx": "react",
         "allowSyntheticDefaultImports": true,
-        "forceConsistentCasingInFileNames": false
+        "forceConsistentCasingInFileNames": false,
+        "types": [
+            "react",
+            "react-dom",
+            "styled-components"
+        ],
+        "lib": ["dom", "es6"]
     },
     "include": [
         "src/**/*"

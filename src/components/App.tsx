@@ -1,12 +1,10 @@
 import * as React from 'react';
+import layout from '../layout';
+import Workbench from './Workbench';
 
 export interface AppProps {
     compiler: string;
     framework: string;
 }
 
-export const App = (props: AppProps) => (
-    <h1>
-        Hello from {props.compiler} and {props.framework}!
-    </h1>
-);
+export const App = (props: AppProps) => <Workbench layout={layout} />;
